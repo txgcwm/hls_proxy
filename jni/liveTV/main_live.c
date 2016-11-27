@@ -312,12 +312,13 @@ int main(int argc, char *argv[])
 	//char live_url[] = "http://tsl5.hls.cutv.com/cutvChannelLive/Qg929n9.m3u8";
 	
 	/* some flv source */
-	char live_url[] = "http://v4.cztv.com/channels/107/500.flv/live";
+	// char live_url[] = "http://v4.cztv.com/channels/107/500.flv/live";
 	//char live_url[] = "http://125.211.216.198/channels/hljtv/wypd/flv:sd/live?1342275792593";
 	
 	/* bug source test */
 	//char live_url[] = "http://114.112.34.103:82/live/5/45/3bde7498f8b64e738f7e5b4938415b3d.m3u";
 	
+	char live_url[] = "http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8";
 	/* -------------------------------------------------------------------------------------------------------------- */	
 	
 	REPORT_VERSION("httplive");
